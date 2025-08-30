@@ -1,0 +1,248 @@
+Common Event 2 Zeke Upgrade Line 1:  - Comment: Zeke needs to have 3 areas: Shield, Axe, and Spirit
+Common Event 2 Zeke Upgrade Line 2:  - Comment: Shield -> 
+Common Event 2 Zeke Upgrade Line 3:  - Comment: Axe ->
+Common Event 2 Zeke Upgrade Line 4:  - Comment: Spirit ->
+Common Event 2 Zeke Upgrade Line 5:  - Comment: Starts with Cover, Cleave, (Spirit)
+Common Event 2 Zeke Upgrade Line 6:  - Comment: Special: Blood Shield
+Common Event 3 Raven Upgrade Line 1:  - Comment: Raven needs to have 3 areas: Power, Skill, and Spirit
+Common Event 3 Raven Upgrade Line 2:  - Comment: Power -> 
+Common Event 3 Raven Upgrade Line 3:  - Comment: Skill ->
+Common Event 3 Raven Upgrade Line 4:  - Comment: Spirit ->
+Common Event 3 Raven Upgrade Line 5:  - Comment: Starts with (Power), Piercing Thrust, (Spirit)
+Common Event 3 Raven Upgrade Line 6:  - Comment: Special: Raven Return
+Common Event 4 Erik Upgrade Line 1:  - Comment: Erik needs to have 3 areas: Fire, Support, and Spirit
+Common Event 4 Erik Upgrade Line 2:  - Comment: Fire -> 
+Common Event 4 Erik Upgrade Line 3:  - Comment: Support ->
+Common Event 4 Erik Upgrade Line 4:  - Comment: Spirit ->
+Common Event 4 Erik Upgrade Line 5:  - Comment: Starts with Fireball, Sleep, and (something from Spirit)
+Common Event 4 Erik Upgrade Line 6:  - Comment: Special: Magical Burst
+Common Event 4 Erik Upgrade Line 7:  - Comment: Reset Upgrade Choice counter for determining whether a variable 
+Common Event 4 Erik Upgrade Line 8:  - Comment: is maxed out or not.
+Common Event 4 Erik Upgrade Line 10:  - Comment: Checks for maxed out variables, outputing a choice variable for 
+Common Event 4 Erik Upgrade Line 11:  - Comment: another check n' output.
+Common Event 4 Erik Upgrade Line 59:  - Comment: Text output based on upgrade choice result.
+Common Event 8 Blood Shield Line 1:  - Comment: In the full game just create another common event for a different 
+Common Event 8 Blood Shield Line 2:  - Comment: blood shield that would have double zeke's hp and have a few lines 
+Common Event 8 Blood Shield Line 3:  - Comment: from Zeke before removing him from the party. Find out if there is 
+Common Event 8 Blood Shield Line 4:  - Comment: a way to ask "are you sure? this character will die and the story will 
+Common Event 8 Blood Shield Line 5:  - Comment: change because of this action." And give be able to go back to their 
+Common Event 8 Blood Shield Line 6:  - Comment: turn/choices if you say no.
+Common Event 13 Magical Burst Line 1:  - Comment: So the way this needs to be done is to have this common event 
+Common Event 13 Magical Burst Line 2:  - Comment: take the mana data and assign which magical burst gets used 
+Common Event 13 Magical Burst Line 3:  - Comment: based on the scale previously set. It's much neater this way and it 
+Common Event 13 Magical Burst Line 4:  - Comment: looks cooler.
+Common Event 14 Mac's Brew Line 10:  - Comment: One cool thing we can do here, is make it so that drinking this 
+Common Event 14 Mac's Brew Line 11:  - Comment: brew twice as though to stack it on a player turns the player
+Common Event 14 Mac's Brew Line 12:  - Comment: beserk/uncontrollable (though MUCH stronger). To go even 
+Common Event 14 Mac's Brew Line 13:  - Comment: further, only Zeke is able to control himself while in this state.
+Common Event 14 Mac's Brew Line 14:  - Comment: Use tsukihime's building states on this.   
+Common Event 16 Life Force sayings Line 1:  - Comment: If they end the fight with a LF move the textbox comes after the 
+Common Event 16 Life Force sayings Line 2:  - Comment: battle is over. I'd rather not have em if I can't figure out how to 
+Common Event 16 Life Force sayings Line 3:  - Comment: have them say it IN battle.
+Common Event 17 WD - Taunts & Choices Line 22:  - Comment: You should probably break this out into it's own Common Event so 
+Common Event 17 WD - Taunts & Choices Line 23:  - Comment: that you can determine if the Shell Immunity is activated and at 
+Common Event 17 WD - Taunts & Choices Line 24:  - Comment: what level.
+Common Event 17 WD - Taunts & Choices Line 28:  - Comment: Compact 1
+Common Event 17 WD - Taunts & Choices Line 40:  - Comment: Compact 2
+Common Event 17 WD - Taunts & Choices Line 52:  - Comment: Compact 3
+Common Event 17 WD - Taunts & Choices Line 64:  - Comment: Burst 1
+Common Event 17 WD - Taunts & Choices Line 76:  - Comment: Burst 2
+Common Event 17 WD - Taunts & Choices Line 88:  - Comment: Burst 3
+Common Event 17 WD - Taunts & Choices Line 100:  - Comment: Overwhelm 1
+Common Event 17 WD - Taunts & Choices Line 118:  - Comment: *****ERIK SHIELD CHOICES*****
+Common Event 17 WD - Taunts & Choices Line 167:  - Comment: *****ERIK ATTACK CHOICES*****
+Common Event 18 WD - Round Outcome Line 1:  - Comment: ****Shield and Shell logic call****
+Common Event 18 WD - Round Outcome Line 3:  - Comment: ****Name of attacks call****
+Common Event 18 WD - Round Outcome Line 5:  - Comment: ****Make it look cool call****
+Common Event 18 WD - Round Outcome Line 7:  - Comment: ****Apply damage call****
+Common Event 18 WD - Round Outcome Line 9:  - Comment: ****Is the duel over? Check****
+Common Event 19 WD - Movement Line 1:  - Comment: This is going to be huge...and hard...and fuck my life I hope this 
+Common Event 19 WD - Movement Line 2:  - Comment: ends up being fun and I don't have to scrap it...lol /sigh
+Common Event 20 WD - Ultimate Outcome Line 1:  - Comment: *****ULTIMATE OUTCOME*****
+Common Event 20 WD - Ultimate Outcome Line 2:  - Comment: Shatter glass sound effect with glass shattering transition into the 
+Common Event 20 WD - Ultimate Outcome Line 3:  - Comment: old map.
+Common Event 20 WD - Ultimate Outcome Line 5:  - Comment: *****LOSS*****
+Common Event 20 WD - Ultimate Outcome Line 6:  - Comment: wait a few seconds and then have Erik fall over and game over.
+Common Event 20 WD - Ultimate Outcome Line 25:  - Comment: *****WIN*****
+Common Event 20 WD - Ultimate Outcome Line 26:  - Comment: wait a few seconds and then have bad guy fall over. 
+Common Event 21 WD - Damage Chart Line 1:  - Comment: ****Bad Guy's Damage to Erik****
+Common Event 21 WD - Damage Chart Line 2:  - Comment: Note: the Damage Aug works like this:
+Common Event 21 WD - Damage Chart Line 3:  - Comment: 0 = full damage
+Common Event 21 WD - Damage Chart Line 4:  - Comment: 1 = partial damage
+Common Event 21 WD - Damage Chart Line 5:  - Comment: 2 = almost no damage
+Common Event 21 WD - Damage Chart Line 6:  - Comment: 3 = zero damage
+Common Event 21 WD - Damage Chart Line 34:  - Comment: Compact 2
+Common Event 21 WD - Damage Chart Line 62:  - Comment: Compact 3
+Common Event 21 WD - Damage Chart Line 90:  - Comment: Burst 4
+Common Event 21 WD - Damage Chart Line 118:  - Comment: Burst 5
+Common Event 21 WD - Damage Chart Line 146:  - Comment: Burst 6
+Common Event 21 WD - Damage Chart Line 174:  - Comment: Overwhelm 7
+Common Event 21 WD - Damage Chart Line 196:  - Comment: ****Erik's Damage to Bad Guy****
+Common Event 21 WD - Damage Chart Line 197:  - Comment: Note: the Damage Aug works like this:
+Common Event 21 WD - Damage Chart Line 198:  - Comment: 0 = full damage
+Common Event 21 WD - Damage Chart Line 199:  - Comment: 1 = partial damage
+Common Event 21 WD - Damage Chart Line 200:  - Comment: 2 = almost no damage
+Common Event 21 WD - Damage Chart Line 201:  - Comment: 3 = zero damage
+Common Event 21 WD - Damage Chart Line 217:  - Comment: Compact 1
+Common Event 21 WD - Damage Chart Line 245:  - Comment: Compact 2
+Common Event 21 WD - Damage Chart Line 273:  - Comment: Compact 3
+Common Event 21 WD - Damage Chart Line 301:  - Comment: Burst 4
+Common Event 21 WD - Damage Chart Line 329:  - Comment: Burst 5
+Common Event 21 WD - Damage Chart Line 357:  - Comment: Burst 6
+Common Event 21 WD - Damage Chart Line 385:  - Comment: Overwhelm 7
+Common Event 21 WD - Damage Chart Line 407:  - Comment: Overwhelm 8
+Common Event 22 WD - Attack Callout Line 1:  - Comment: ****Bad Guy's Attacks****
+Common Event 22 WD - Attack Callout Line 2:  - Comment: Compact 1
+Common Event 22 WD - Attack Callout Line 9:  - Comment: Compact 2
+Common Event 22 WD - Attack Callout Line 16:  - Comment: Compact 3
+Common Event 22 WD - Attack Callout Line 23:  - Comment: Burst 4
+Common Event 22 WD - Attack Callout Line 30:  - Comment: Burst 5
+Common Event 22 WD - Attack Callout Line 37:  - Comment: Burst 6
+Common Event 22 WD - Attack Callout Line 44:  - Comment: Overwhelm 7
+Common Event 22 WD - Attack Callout Line 51:  - Comment: ****Erik's Attacks****
+Common Event 22 WD - Attack Callout Line 52:  - Comment: Gamble success!
+Common Event 22 WD - Attack Callout Line 70:  - Comment: Gamble fail...
+Common Event 22 WD - Attack Callout Line 90:  - Comment: Compact 1
+Common Event 22 WD - Attack Callout Line 97:  - Comment: Compact 2
+Common Event 22 WD - Attack Callout Line 104:  - Comment: Compact 3
+Common Event 22 WD - Attack Callout Line 111:  - Comment: Burst 4
+Common Event 22 WD - Attack Callout Line 118:  - Comment: Burst 5
+Common Event 22 WD - Attack Callout Line 125:  - Comment: Burst 6
+Common Event 22 WD - Attack Callout Line 132:  - Comment: Overwhelm 7
+Common Event 22 WD - Attack Callout Line 139:  - Comment: Overwhelm 8
+Common Event 23 WD - Shield/Shell Logic Line 1:  - Comment: Note: the Damage Aug works like this:
+Common Event 23 WD - Shield/Shell Logic Line 2:  - Comment: 0 = full damage
+Common Event 23 WD - Shield/Shell Logic Line 3:  - Comment: 1 = partial damage
+Common Event 23 WD - Shield/Shell Logic Line 4:  - Comment: 2 = almost no damage
+Common Event 23 WD - Shield/Shell Logic Line 5:  - Comment: 3 = zero damage
+Common Event 23 WD - Shield/Shell Logic Line 8:  - Comment: Gamble succeeds works like this:
+Common Event 23 WD - Shield/Shell Logic Line 9:  - Comment: 0 = No Gamble made
+Common Event 23 WD - Shield/Shell Logic Line 10:  - Comment: 1 = Gamble made and it's a success
+Common Event 23 WD - Shield/Shell Logic Line 11:  - Comment: 2 = Gamble made and it's a fail
+Common Event 23 WD - Shield/Shell Logic Line 13:  - Comment: *******Erik Shield Check*******
+Common Event 23 WD - Shield/Shell Logic Line 14:  - Comment: ****Out of Mana or No Shield****
+Common Event 23 WD - Shield/Shell Logic Line 16:  - Comment: Full damage is dealt to Erik this round.
+Common Event 23 WD - Shield/Shell Logic Line 20:  - Comment: ****Compact Focus****
+Common Event 23 WD - Shield/Shell Logic Line 23:  - Comment: Almost no damage is dealt to Erik this round.
+Common Event 23 WD - Shield/Shell Logic Line 27:  - Comment: Partial damage is dealt to Erik this round.
+Common Event 23 WD - Shield/Shell Logic Line 33:  - Comment: ****Burst Focus****
+Common Event 23 WD - Shield/Shell Logic Line 36:  - Comment: Almost no damage is dealt to Erik this round.
+Common Event 23 WD - Shield/Shell Logic Line 38:  - Comment: This is to check for Overwhelm and make sure you only get partial 
+Common Event 23 WD - Shield/Shell Logic Line 39:  - Comment: for that because this is burst focus. 
+Common Event 23 WD - Shield/Shell Logic Line 41:  - Comment: Partial damage is dealt to Erik this round.
+Common Event 23 WD - Shield/Shell Logic Line 47:  - Comment: Partial damage is dealt to Erik this round.
+Common Event 23 WD - Shield/Shell Logic Line 53:  - Comment: ****Compact Gamble****
+Common Event 23 WD - Shield/Shell Logic Line 55:  - Comment: Did the compact gamble succeed?
+Common Event 23 WD - Shield/Shell Logic Line 56:  - Comment: Check for attacks 1, 2, and 3.
+Common Event 23 WD - Shield/Shell Logic Line 58:  - Comment: No damage is dealt to Erik this round.
+Common Event 23 WD - Shield/Shell Logic Line 60:  - Comment: Erik deals full damage to BG
+Common Event 23 WD - Shield/Shell Logic Line 65:  - Comment: Gamble failed, now Erik is gonna get it
+Common Event 23 WD - Shield/Shell Logic Line 66:  - Comment: Full damage is dealt to Erik this round.
+Common Event 23 WD - Shield/Shell Logic Line 68:  - Comment: Erik deals no damage to BG
+Common Event 23 WD - Shield/Shell Logic Line 75:  - Comment: ****Burst Gamble****
+Common Event 23 WD - Shield/Shell Logic Line 77:  - Comment: Did the burst gamble succeed?
+Common Event 23 WD - Shield/Shell Logic Line 78:  - Comment: Check for attacks 4, 5, and 6.
+Common Event 23 WD - Shield/Shell Logic Line 81:  - Comment: No damage is dealt to Erik this round.
+Common Event 23 WD - Shield/Shell Logic Line 83:  - Comment: Erik deals full damage to BG
+Common Event 23 WD - Shield/Shell Logic Line 88:  - Comment: Gamble failed, now Erik is gonna get it
+Common Event 23 WD - Shield/Shell Logic Line 89:  - Comment: Full damage is dealt to Erik this round.
+Common Event 23 WD - Shield/Shell Logic Line 91:  - Comment: Erik deals no damage to BG
+Common Event 23 WD - Shield/Shell Logic Line 98:  - Comment: Gamble failed, now Erik is gonna get it
+Common Event 23 WD - Shield/Shell Logic Line 99:  - Comment: Full damage is dealt to Erik this round.
+Common Event 23 WD - Shield/Shell Logic Line 101:  - Comment: Erik deals no damage to BG
+Common Event 23 WD - Shield/Shell Logic Line 108:  - Comment: *******Bad Guy Shell Check*******
+Common Event 23 WD - Shield/Shell Logic Line 109:  - Comment: Note: the Damage Aug works like this:
+Common Event 23 WD - Shield/Shell Logic Line 110:  - Comment: 0 = full damage
+Common Event 23 WD - Shield/Shell Logic Line 111:  - Comment: 1 = partial damage
+Common Event 23 WD - Shield/Shell Logic Line 112:  - Comment: 2 = almost no damage
+Common Event 23 WD - Shield/Shell Logic Line 113:  - Comment: 3 = zero damage
+Common Event 23 WD - Shield/Shell Logic Line 115:  - Comment: ****Shell is active****
+Common Event 23 WD - Shield/Shell Logic Line 116:  - Comment: Combos ultimately yield Aug = 0 on the last component. 
+Common Event 23 WD - Shield/Shell Logic Line 117:  - Comment: 1+1+2=0
+Common Event 23 WD - Shield/Shell Logic Line 118:  - Comment: 1+2+1=0
+Common Event 23 WD - Shield/Shell Logic Line 119:  - Comment: 2+1+2=0
+Common Event 23 WD - Shield/Shell Logic Line 120:  - Comment: 2+2+1=0
+Common Event 23 WD - Shield/Shell Logic Line 121:  - Comment: ****In a Row check****
+Common Event 23 WD - Shield/Shell Logic Line 135:  - Comment: This spot is for how to react to Overwhelm
+Common Event 23 WD - Shield/Shell Logic Line 142:  - Comment: ****Check for combos and Shell appropriately****
+Common Event 23 WD - Shield/Shell Logic Line 152:  - Comment: ****Shell is not active****
+Common Event 24 WD - Combo check Line 1:  - Comment: Combos ultimately yield Aug = 0 on the last component. 
+Common Event 24 WD - Combo check Line 2:  - Comment: 1+1+2=0
+Common Event 24 WD - Combo check Line 3:  - Comment: 1+2+1=0
+Common Event 24 WD - Combo check Line 4:  - Comment: 2+1+2=0
+Common Event 24 WD - Combo check Line 5:  - Comment: 2+2+1=0
+Map 2 Forest 5 - Huge Waterfall* - Event 19 The Spot (31,35) - Page 1 Line 143:  - Comment: This is where Erik jumps in and fireballs em.
+Map 2 Forest 5 - Huge Waterfall* - Event 19 The Spot (31,35) - Page 1 Line 144:  - Comment: I think maybe he should shoot ALL of them.
+Map 2 Forest 5 - Huge Waterfall* - Event 19 The Spot (31,35) - Page 1 Line 145:  - Comment: Then his final move, hits ALL of them at the same
+Map 2 Forest 5 - Huge Waterfall* - Event 19 The Spot (31,35) - Page 1 Line 146:  - Comment: time.
+Map 2 Forest 5 - Huge Waterfall* - Event 42 Begin (39,49) - Page 1 Line 1:  - Comment: Don't do the control of the character scene. I think I have too many 
+Map 2 Forest 5 - Huge Waterfall* - Event 42 Begin (39,49) - Page 1 Line 2:  - Comment: cutscenes lol so instead of that I'll just have the cutscene where the 
+Map 2 Forest 5 - Huge Waterfall* - Event 42 Begin (39,49) - Page 1 Line 3:  - Comment: ogre jumps in right after the player is through transition 4. Then I 
+Map 2 Forest 5 - Huge Waterfall* - Event 42 Begin (39,49) - Page 1 Line 4:  - Comment: start them at the entrance to this area. That way I only have two 
+Map 2 Forest 5 - Huge Waterfall* - Event 42 Begin (39,49) - Page 1 Line 5:  - Comment: more scenes to do before I cut it off as a demo storyline wise. 
+Map 3 Pinebrook* - Event 3 Cutscene (42,44) - Page 1 Line 10:  - Comment: ------------Sort these out-----------------
+Map 3 Pinebrook* - Event 3 Cutscene (42,44) - Page 1 Line 16:  - Comment: ---------------------------------------------
+Map 3 Pinebrook* - Event 8 Pub entrance (9,34) - Page 1 Line 1:  - Comment: maybe let them in and most people have left. The bartender thanks 
+Map 3 Pinebrook* - Event 8 Pub entrance (9,34) - Page 1 Line 2:  - Comment: you for telling such interesting stories and hopes you come back 
+Map 3 Pinebrook* - Event 8 Pub entrance (9,34) - Page 1 Line 3:  - Comment: again OR not let them in and say something like "Umm guys, it's 
+Map 3 Pinebrook* - Event 8 Pub entrance (9,34) - Page 1 Line 4:  - Comment: the first thing in the morning...the pub isn't open this early."
+Map 3 Pinebrook* - Event 21 Graves (13,27) - Page 1 Line 1:  - Comment: please fix the timing on this to go smoother. I'm thinking that Erik 
+Map 3 Pinebrook* - Event 21 Graves (13,27) - Page 1 Line 2:  - Comment: should be stepping when he appears and then stop. The scroll map 
+Map 3 Pinebrook* - Event 21 Graves (13,27) - Page 1 Line 3:  - Comment: should be slower and maybe go three instead of two up. Hold it for 
+Map 3 Pinebrook* - Event 21 Graves (13,27) - Page 1 Line 4:  - Comment: 60, mystery, 120 frames(maybe more) and then come back slowly. 
+Map 3 Pinebrook* - Event 21 Graves (13,27) - Page 1 Line 5:  - Comment: Also have Erik say he thinks they should be glad they are leaving 
+Map 3 Pinebrook* - Event 21 Graves (13,27) - Page 1 Line 6:  - Comment: instead of Raven...Raven wouldn't know about Zombies...
+Map 3 Pinebrook* - Event 32 EV032 (21,15) - Page 1 Line 1:  - Comment: Play rpg3 farm while talking to him and once it's over go back to 
+Map 3 Pinebrook* - Event 32 EV032 (21,15) - Page 1 Line 2:  - Comment: normal town music. I am thinking about having him tell you that he 
+Map 3 Pinebrook* - Event 32 EV032 (21,15) - Page 1 Line 3:  - Comment: is a traveling bard and that he would like to warn you to leave this 
+Map 3 Pinebrook* - Event 32 EV032 (21,15) - Page 1 Line 4:  - Comment: town soon because things aren't what they seem. 
+Map 3 Pinebrook* - Event 32 EV032 (21,15) - Page 3 Line 1:  - Comment: Play rpg3 farm while talking to him and once it's over go back to 
+Map 3 Pinebrook* - Event 32 EV032 (21,15) - Page 3 Line 2:  - Comment: normal town music. I am thinking about having him tell you that he 
+Map 3 Pinebrook* - Event 32 EV032 (21,15) - Page 3 Line 3:  - Comment: is a traveling bard and that he would like to warn you to leave this 
+Map 3 Pinebrook* - Event 32 EV032 (21,15) - Page 3 Line 4:  - Comment: town soon because things aren't what they seem. 
+Map 3 Pinebrook* - Event 32 EV032 (21,15) - Page 4 Line 1:  - Comment: Play rpg3 farm while talking to him and once it's over go back to 
+Map 3 Pinebrook* - Event 32 EV032 (21,15) - Page 4 Line 2:  - Comment: normal town music. I am thinking about having him tell you that he 
+Map 3 Pinebrook* - Event 32 EV032 (21,15) - Page 4 Line 3:  - Comment: is a traveling bard and that he would like to warn you to leave this 
+Map 3 Pinebrook* - Event 32 EV032 (21,15) - Page 4 Line 4:  - Comment: town soon because things aren't what they seem. 
+Map 5 InnF1F - Event 5 EV005 (25,18) - Page 1 Line 1:  - Comment: I say that I leave THESE rooms open and have the occupants 
+Map 5 InnF1F - Event 5 EV005 (25,18) - Page 1 Line 2:  - Comment: complain about how there are no doors and how they wish they 
+Map 5 InnF1F - Event 5 EV005 (25,18) - Page 1 Line 3:  - Comment: couldve afforded a suite upstairs. When they pay the gold to stay at 
+Map 5 InnF1F - Event 5 EV005 (25,18) - Page 1 Line 4:  - Comment: the inn have them walk to an empty room and have them all be 
+Map 5 InnF1F - Event 5 EV005 (25,18) - Page 1 Line 5:  - Comment: like "so...two beds. How are we gonna do this?" next morning have 
+Map 5 InnF1F - Event 5 EV005 (25,18) - Page 1 Line 6:  - Comment: em wake up like nothing happened lol 
+Map 6 InnF2F - Event 2 EV002 (25,18) - Page 1 Line 1:  - Comment: I should darken all of these rooms out and have doors blocking 
+Map 6 InnF2F - Event 2 EV002 (25,18) - Page 1 Line 2:  - Comment: them. I want one of them to be disturbing a couple, one be a danny 
+Map 6 InnF2F - Event 2 EV002 (25,18) - Page 1 Line 3:  - Comment: boy reference, and one be that thief's room. 
+Map 8 Forest Entrance - Event 10 Nest of Hornets (6,12) - Page 1 Line 9:  - Comment: Have a significant amount of hornets attack
+Map 8 Forest Entrance - Event 10 Nest of Hornets (6,12) - Page 1 Line 10:  - Comment: Reward with some kind of honey that does something special.
+Map 8 Forest Entrance - Event 12 Plant Monster1 (34,13) - Page 1 Line 1:  - Comment: <page trigger: region_enter 1>
+Map 8 Forest Entrance - Event 17 Plant Monster2 (23,6) - Page 1 Line 2:  - Comment: The line will either put the players to sleep for a surprise attack, 
+Map 8 Forest Entrance - Event 17 Plant Monster2 (23,6) - Page 1 Line 3:  - Comment: you can attack them individually, or you can avoid them all 
+Map 8 Forest Entrance - Event 17 Plant Monster2 (23,6) - Page 1 Line 4:  - Comment: together.
+Map 8 Forest Entrance - Event 22 Pollen Line5 (28,5) - Page 1 Line 1:  - Comment: This line should cause pollen to put the party to sleep
+Map 12 Forest 2 - Lily Pond - Event 1 EV001 (27,29) - Page 1 Line 1:  - Comment: Put in a fairy that'll give you magic water only once though. Have 
+Map 12 Forest 2 - Lily Pond - Event 1 EV001 (27,29) - Page 1 Line 2:  - Comment: Erik make the other two back away first because non-magic folk 
+Map 12 Forest 2 - Lily Pond - Event 1 EV001 (27,29) - Page 1 Line 3:  - Comment: scare fairies. He shows the fairy some magic by making it a flower
+Map 12 Forest 2 - Lily Pond - Event 1 EV001 (27,29) - Page 1 Line 4:  - Comment: (at the cost of 50MP) and in return the fairy gives him some magic 
+Map 12 Forest 2 - Lily Pond - Event 1 EV001 (27,29) - Page 1 Line 5:  - Comment: water before taking the flower and disappearing. His friends tell him 
+Map 12 Forest 2 - Lily Pond - Event 1 EV001 (27,29) - Page 1 Line 6:  - Comment: "That was cute." "Yep, simply /iDARLING/i." "...Shut up."
+Map 33 Forest 4.5 - Bandit Cutscene - Event 16 EV016 (30,25) - Page 2 Line 1:  - Comment: Make sure to change  'male' to 'man' on the third paragraph on the 
+Map 33 Forest 4.5 - Bandit Cutscene - Event 16 EV016 (30,25) - Page 2 Line 2:  - Comment: other three start up spots. OR set up this area like the fairy pond.
+Map 36 Forest 5.1 - Run! - Event 50 Erik-Raven (21,6) - Page 3 Line 80:  - Comment: Below is from another event processing
+Map 36 Forest 5.1 - Run! - Event 64 Climax (22,2) - Page 1 Line 13:  - Comment: Movement 1
+Map 36 Forest 5.1 - Run! - Event 64 Climax (22,2) - Page 1 Line 33:  - Comment: Movement 2
+Map 36 Forest 5.1 - Run! - Event 64 Climax (22,2) - Page 1 Line 44:  - Comment: Movement 3
+Map 36 Forest 5.1 - Run! - Event 64 Climax (22,2) - Page 1 Line 52:  - Comment: Movement 4
+Map 37 Pub 1 - Event 28 Event Runner (26,20) - Page 1 Line 129:  - Comment: Have erik walk up.
+Map 39 Revised Mine Scene - Event 6 EV006 (31,17) - Page 1 Line 92:  - Comment: reflection, flash screen, boom! Erik goes down. Ogre runs up and 
+Map 39 Revised Mine Scene - Event 6 EV006 (31,17) - Page 1 Line 93:  - Comment: knocks Erik to the left off screen. Teardrops on zeke and raven. 
+Map 39 Revised Mine Scene - Event 6 EV006 (31,17) - Page 1 Line 94:  - Comment: They walk up a bit and look down the hall.
+Map 39 Revised Mine Scene - Event 6 EV006 (31,17) - Page 1 Line 183:  - Comment: Grom smash!! Clash, epic jump n shit
+Map 39 Revised Mine Scene - Event 6 EV006 (31,17) - Page 1 Line 239:  - Comment: Ogre gets hit with cart from behind while Zeke and Raven jump out 
+Map 39 Revised Mine Scene - Event 6 EV006 (31,17) - Page 1 Line 240:  - Comment: of the way. Ogre falls down the hole. Zeke and Raven walk up a 
+Map 39 Revised Mine Scene - Event 6 EV006 (31,17) - Page 1 Line 241:  - Comment: few steps meeting up with Erik.
+Map 39 Revised Mine Scene - Event 6 EV006 (31,17) - Page 1 Line 288:  - Comment: Erik collapses....teardrops.
+Map 43 Starting Town - Event 32 EV032 (21,15) - Page 1 Line 1:  - Comment: Play rpg3 farm while talking to him and once it's over go back to 
+Map 43 Starting Town - Event 32 EV032 (21,15) - Page 1 Line 2:  - Comment: normal town music. I am thinking about having him tell you that he 
+Map 43 Starting Town - Event 32 EV032 (21,15) - Page 1 Line 3:  - Comment: is a traveling bard and that he would like to warn you to leave this 
+Map 43 Starting Town - Event 32 EV032 (21,15) - Page 1 Line 4:  - Comment: town soon because things aren't what they seem. 
