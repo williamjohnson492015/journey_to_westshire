@@ -14,6 +14,11 @@
  * @desc The offset value for the y coordinate.
  * @default 0
  *
+ * @param Anchor to Bottom
+ * @desc For setting the Y to the bottom of the screen
+ * default false
+ * @default false 
+ *
  * @param Width
  * @desc The width of the command window.
  * @default 240
@@ -37,6 +42,11 @@
  * @desc Y座標のオフセット値です。
  * @default 0
  *
+ * @param Anchor to Bottom
+ * @desc For setting the Y to the bottom of the screen
+ * default false
+ * @default false
+ *
  * @param Width
  * @desc コマンドウィンドウの幅です。
  * @default 240
@@ -54,6 +64,7 @@
     var offsetX = Number(parameters['Offset X'] || 0);
     var offsetY = Number(parameters['Offset Y'] || 0);
     var width = Number(parameters['Width'] || 240);
+    var anchorToBottom = Boolean(parameters['Anchor to Bottom'] || false);
     var background = Number(parameters['Background'] || 0);
 
     var _Window_TitleCommand_updatePlacement =
@@ -62,6 +73,7 @@
         _Window_TitleCommand_updatePlacement.call(this);
         this.x += offsetX;
         this.y += offsetY;
+	if (anchorToBottom) {this.y = Graphics.boxHeight - this.height - this.itemHeight();}
         this.setBackgroundType(background);
     };
 
